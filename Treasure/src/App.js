@@ -63,7 +63,7 @@ class App extends Component {
             <Route exact path="/" render={(props) => (
               <Home cards={this.state.cards} />
             )} />
-            <Route exact path="/Birthday" component={Birthday} />
+            <Route exact path="/birthday" component={Birthday} />
             <Route exact path="/product/:id" render={(props) => {
               let cardPosition = props.location.pathname.replace('/product/', '');
               return (
