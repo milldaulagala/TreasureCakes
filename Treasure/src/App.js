@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import logo from './logo.png';
 import './App.css';
 import Home from './components/Home';
-import Treasure from './components/Treasure';
+import Birthday from './components/Birthday';
 import Navigation from './components/Navigation';
 import ProductDetails from './components/ProductDetails';
 import Lost from './components/Lost';
@@ -63,7 +63,7 @@ class App extends Component {
             <Route exact path="/" render={(props) => (
               <Home cards={this.state.cards} />
             )} />
-            <Route exact path="/treasure" component={Treasure} />
+            <Route exact path="/Birthday" component={Birthday} />
             <Route exact path="/product/:id" render={(props) => {
               let cardPosition = props.location.pathname.replace('/product/', '');
               return (
