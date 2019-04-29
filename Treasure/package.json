@@ -1,15 +1,16 @@
 {
-  "name": "chalani",
-  "version": "0.2.0",
+  "name": "chalani-cakes",
+  "version": "0.1.0",
+  "private": true,
   "engines": {
-    "node": "8.11.2",
-    "npm": "5.6.0"
+    "npm": "6.1.0",
+    "node": "10.2.1"
   },
   "dependencies": {
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
     "react-lazyload": "^2.3.0",
-    "react-router-dom": "^4.2.2",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4"
   },
   "scripts": {
@@ -18,5 +19,4 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
-  
 }
